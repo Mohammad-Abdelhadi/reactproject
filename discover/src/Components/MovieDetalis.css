@@ -1,0 +1,141 @@
+/* MovieDetails.css */
+ ol, ul, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0 !important;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cellphone-container {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.movie {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+}
+
+
+
+.movie .movie-img {
+  height: 400px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.movie .text-movie-cont {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.movie .text-movie-cont h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.movie .text-movie-cont .movie-gen li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #777;
+  font-size: 16px;
+}
+
+.movie .text-movie-cont .summary-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie .text-movie-cont .summary-row h5 {
+  margin: 0;
+  color: #444;
+  font-size: 18px;
+}
+
+.movie .text-movie-cont .movie-likes li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #888;
+  font-size: 16px;
+}
+
+.movie .text-movie-cont .movie-description {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.movie-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie .text-movie-cont .movie-actors {
+  color: #555;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.movie .text-movie-cont .action-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie .text-movie-cont .action-row .watch-btn {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+
+.movie .text-movie-cont .action-row .action-btn {
+  color: #555;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.movie .text-movie-cont .action-row .action-btn:hover {
+  background-color: #f2f2f2;
+}
+
+.dribbble-link {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+  }
+}
